@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('https://raw.githubusercontent.com/LearningKijo/ResearchDev/main/DEV01-RedirectAttachment/DEV01-HTML/dev01-img-sea.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    #loginContainer {
+      text-align: left;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    #waitingSection {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #ffc107;
+      color: #856404;
+      border: 1px solid #ffa800;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="loginContainer">
+    <h2>Sign in</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="button" onclick="simulateLogin()">Login</button>
+    </form>
+
+    <div id="waitingSection">
+      <p>There was a problem with the login. Redirecting...</p>
+    </div>
+  </div>
+
+  <script>
+    // Show the waiting section
+    document.getElementById("waitingSection").style.display = "block";
+
+    // Redirect after 5 seconds
+    setTimeout(function () {
+      window.location.href = "https://www.eicar.org/download/eicar_com-zip/?wpdmdl=8847&refresh=657b07a8684281702561704"; // Replace with your desired URL
+    }, 5000); // 5000 milliseconds = 5 seconds
+
+    // Simulate a login (optional)
+    function simulateLogin() {
+      // You can add login logic here if needed
+    }
+  </script>
+
+</body>
+</html>
