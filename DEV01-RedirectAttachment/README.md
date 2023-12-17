@@ -13,7 +13,7 @@ This is a test file designed for ***"File Detonation"*** and ***"Deep Analysis"*
 2. Send an email with ***the html file*** to the test user.
 
 ### How HTML file works
-e.g. DEV01-Attachment-v1.html
+e.g. DEV01-Attachment-Type1.html
 ![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/d4a08f23-193d-4073-a06d-47dcb194468f)
 
 #### Disclaimer
