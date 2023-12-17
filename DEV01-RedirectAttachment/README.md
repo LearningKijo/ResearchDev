@@ -6,9 +6,11 @@ This is a test file designed for ***"File Detonation"*** and ***"Deep Analysis"*
 
 ### Usage 
 1. Donwload one of the test html files.
-   - [x] [DEV01-Attachment-v1.html](https://github.com/LearningKijo/ResearchDev/blob/main/DEV01-RedirectAttachment/DEV01-HTML/DEV01-Attachment-v1.html)
-   - [x] [DEV01-Attachment-v2.html](https://github.com/LearningKijo/ResearchDev/blob/main/DEV01-RedirectAttachment/DEV01-HTML/DEV01-Attachment-v2.html)
-3. Send an email with ***the html file*** to the test user.
+   - [x] [DEV01-Attachment-Type1.html](https://github.com/LearningKijo/ResearchDev/blob/main/DEV01-RedirectAttachment/DEV01-HTML/DEV01-Attachment-Type1.html)
+   - [x] [DEV01-Attachment-Type2.html](https://github.com/LearningKijo/ResearchDev/blob/main/DEV01-RedirectAttachment/DEV01-HTML/DEV01-Attachment-Type2.html)
+   - [x] [DEV01-Attachment-Type3.html](https://github.com/LearningKijo/ResearchDev/blob/main/DEV01-RedirectAttachment/DEV01-HTML/DEV01-Attachment-Type3.html)
+ 
+2. Send an email with ***the html file*** to the test user.
 
 ### How HTML file works
 e.g. DEV01-Attachment-v1.html
