@@ -16,5 +16,8 @@ This is a test file designed for ***"File Detonation"*** and ***"Deep Analysis"*
 e.g. DEV01-Attachment-Type1.html
 ![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/d4a08f23-193d-4073-a06d-47dcb194468f)
 
+### HTML file templates
+![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/aeb12d13-b91e-476b-b168-dcd30f8ae6d5)
+
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
