@@ -1,7 +1,7 @@
 # ResearchDev
 In this `ResearchDev` repository, I would like to share threat detection insights throughout Microsoft Defender XDR.
 
-| Product | TEST/METHOD - Validation|
+| Product | TEST/METHOD & Threat Detection |
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   MDO   | [MDO Safe Attachments : Detonation & Deep Analysis Validation](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV01-MDO-FileDetonation/README.md) |
 |   MDE   | Microsoft Defender AV Tampering, Defense Evasion  |
