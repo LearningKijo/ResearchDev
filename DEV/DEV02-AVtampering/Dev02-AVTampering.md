@@ -3,7 +3,7 @@ Microsoft Defender for Endpoint does provide AV tampering protection called **Ta
 On this page, I would like to showcase some test methods and demonstrate the detection/alerts capabilities of Microsoft Defender for Endpoint.
 
 ## TEST insights
-PowerShell, Defender Cmdlet 
+**PowerShell, Defender Cmdlet** 
 ```powershell
 # Disable real-time protection
 Set-MpPreference -DisableRealtimeMonitoring $true
@@ -13,7 +13,7 @@ Set-MpPreference -MAPSReporting 0
 Set-MpPreference -ExclusionExtension "ps1" -ExclusionPath "C:\"
 ```
 
-PowerShell, Create new registry values
+**PowerShell, creating new registry values**
 ```powershell
 # Disable real-time protection
 New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name DisableRealtimeMonitoring -Value 1 -PropertyType DWord -Force
@@ -30,13 +30,13 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Exclu
 > New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions" -Name 'Extensions' -Force -ErrorAction 0
 > ```
 
-PowerShell, Stop Defender Service & Process
+**PowerShell, stop Defender Service & Process**
 ```powershell
 Stop-Service -Name "WinDefend"
 Stop-Process -Name "MsMpEng"
 ```
 
-Windows commands, Create new registry values
+**Windows commands, Creating new registry values**
 ```cmd
 rem Disable real-time protection
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableRealtimeMonitoring" /t REG_DWORD /d 1 /f
@@ -47,13 +47,14 @@ reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions\Extens
 reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions\Paths" /f /v "C:\" /t REG_DWORD /d 0 /reg:64
 ```
 
-Windows commands, Stop Defender Service, Network Service 
+**Windows commands, stop Defender Service, Network Service**
 ```cmd
 sc stop WinDefend
 net stop WinDefend
 ```
 
 ## Alerts & Detections
+Here are alerts detected by Microsoft Defender for Endpoint and Microsoft Defender Antivirus.
 
 - [x] Suspicious Microsoft Defender Antivirus exclusion
 - [x] Attempt to turn off Microsoft Defender Antivirus protection
@@ -63,6 +64,8 @@ net stop WinDefend
 
 If Tamper Protection enabled...
 - [x] Microsoft Defender Antivirus tampering
+
+![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/4cc90ed3-6672-421b-84c0-4b8fb6e6b4f6)
 
 ## Reference
 - [Current limits of Defender AV Tamper Protection](https://cloudbrothers.info/current-limits-defender-av-tamper-protection/)
