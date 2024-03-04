@@ -55,18 +55,45 @@ net stop WinDefend
 ```
 
 ## Alerts & Detections
-Here are alerts detected by Microsoft Defender for Endpoint and Microsoft Defender Antivirus.
+Here are alerts detected by Microsoft Defender for Endpoint and Microsoft Defender Antivirus. 
+These alerts originated from the aforementioned PowerShell and CMD.
 
 - [x] Suspicious Microsoft Defender Antivirus exclusion
 - [x] Attempt to turn off Microsoft Defender Antivirus protection
 - [x] An active 'MpTamperSrvDisableAV' malware was prevented from executing via AMSI
 - [x] An active 'MpTamperSrvDisableAV' malware in a command line was prevented from executing
 - [x] Microsoft Defender Antivirus protection turned off
-
-If Tamper Protection enabled...
 - [x] Microsoft Defender Antivirus tampering
 
 ![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/4cc90ed3-6672-421b-84c0-4b8fb6e6b4f6)
+
+**Detecting potential tampering activity in the Microsoft Defender portal**
+
+When tampering is detected, an alert is raised. Some of the alert titles for tampering are : [Tamper resiliency](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/tamper-resiliency?view=o365-worldwide)
+```
+- Attempt to bypass Microsoft Defender for Endpoint client protection
+- Attempt to stop Microsoft Defender for Endpoint sensor
+- Attempt to tamper with Microsoft Defender on multiple devices
+- Attempt to turn off Microsoft Defender Antivirus protection
+- Defender detection bypass
+- Driver-based tampering attempt blocked
+- Image file execution options set for tampering purposes
+- Microsoft Defender Antivirus protection turned off
+- Microsoft Defender Antivirus tampering
+- Modification attempt in Microsoft Defender Antivirus exclusion list
+- Pending file operations mechanism abused for tampering purposes
+- Possible Antimalware Scan Interface (AMSI) tampering
+- Possible remote tampering
+- Possible sensor tampering in memory
+- Potential attempt to tamper with MDE via drivers
+- Security software tampering
+- Suspicious Microsoft Defender Antivirus exclusion
+- Tamper protection bypass
+- Tampering activity typical to ransomware attacks
+- Tampering with Microsoft Defender for Endpoint sensor communication
+- Tampering with Microsoft Defender for Endpoint sensor settings
+- Tampering with the Microsoft Defender for Endpoint sensor
+```
 
 ## Reference
 - [Current limits of Defender AV Tamper Protection](https://cloudbrothers.info/current-limits-defender-av-tamper-protection/)
