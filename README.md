@@ -4,7 +4,7 @@ In this `ResearchDev` repository, I would like to share threat detection insight
 | Product | TEST/METHOD & Threat Detection |
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   MDO   | [MDO Safe Attachments : Detonation & Deep Analysis Validation](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV01-MDO-FileDetonation/README.md) |
-|   MDE   | Microsoft Defender AV Tampering, Defense Evasion  |
+|   MDE   | [Microsoft Defender AV Tampering, Defense Evasion](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV02-AVtampering/Dev02-AVTampering.md)  |
 |   MDE   | MDE Sensor Tampering, Defense Evasion |
 
 #### Disclaimer
