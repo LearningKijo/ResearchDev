@@ -1,7 +1,7 @@
 # AV Tampering 
-Microsoft Defender for Endpoint does provide AV tampering protection called **Tamper Protection**, preventing attackers from modifying values and disabling detection engines during defense evasion attempts. 
-On this page, I would like to showcase some test methods and demonstrate the detection/alerts capabilities of Microsoft Defender for Endpoint. 
-These detected alerts include cases where Tamper Protection was not enabled.
+Microsoft Defender for Endpoint does provide AV tampering protection called **Tamper Protection**, preventing attackers from modifying values and disabling detection engines during defense evasion attempts. If Tamper Protection is enabled, AV tampering activities will be blocked. Even if not enabled, AV tampering activities will be detected by Microsoft Defender for Endpoint.
+
+On this page, I would like to showcase **some test methods** and demonstrate **the detection/alerts** capabilities of Microsoft Defender for Endpoint. 
 
 ## TEST insights
 **PowerShell, Defender Cmdlet** 
