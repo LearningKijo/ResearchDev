@@ -3,7 +3,7 @@ Microsoft Defender for Endpoint does provide AV tampering protection called **Ta
 
 On this page, I would like to showcase **some test methods** and demonstrate **the detection/alerts** capabilities of Microsoft Defender for Endpoint. 
 
-## TEST insights
+## Red Note (test insights)
 **PowerShell, Defender Cmdlet** 
 ```powershell
 # Disable real-time protection
@@ -94,6 +94,10 @@ When tampering is detected, an alert is raised. Some of the alert titles for tam
 - Tampering with Microsoft Defender for Endpoint sensor settings
 - Tampering with the Microsoft Defender for Endpoint sensor
 ```
+
+## Blue Note
+- Turn on [Microsoft Defender Antvirus](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/next-generation-protection?view=o365-worldwide) (Including Real-Time Protection, Cloud Protection, Sample Submission and so on)
+- Turn on [Tamper Protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection?view=o365-worldwide&ocid=magicti_ta_learndoc)
 
 ## Reference
 - [Current limits of Defender AV Tamper Protection](https://cloudbrothers.info/current-limits-defender-av-tamper-protection/)
