@@ -1,6 +1,7 @@
 # Firewall Tampering, Blocking EDR/AV communication
 Microsoft Defender Antivirus detects and **prevents tampering** with the creation of firewall rules for both Microsoft Defender for Endpoint and Microsoft Defender Antivirus.
 
+## TEST insights
 **[Bypassing Defender EDR using Windows Firewall - mitigations](https://write-verbose.com/2022/05/31/EDRBypass/)**
 ```Powershell
 New-NetFirewallRule -DisplayName "Block 443 MsMpEng" -Name "Block 443 MsMpEng" -Direction Outbound -Service WinDefend -Enabled True -RemotePort 443 -Protocol TCP -Action Block
