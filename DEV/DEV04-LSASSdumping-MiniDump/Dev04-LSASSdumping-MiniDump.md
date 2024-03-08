@@ -50,7 +50,9 @@ After running the script, these alerts were generated and correlated into a sing
 - [x] Suspicious Microsoft Defender Antivirus exclusion
 - [x] Attempt to turn off Microsoft Defender Antivirus protection
 
-![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/c3c23a51-799e-434b-b914-c48acbc2bee7)
+![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/b7f1dc16-ac2a-4032-9f77-fd1cd1074318)
+
+![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/98f5cf84-59e7-46ee-a9ad-58434efedd83)
 
 ## Blue Note
 - Turn on [Microsoft Defender Antvirus](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/next-generation-protection?view=o365-worldwide) (Including Real-Time Protection, Cloud Protection, Sample Submission and so on)
