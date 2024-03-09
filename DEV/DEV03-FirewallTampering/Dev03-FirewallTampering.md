@@ -24,7 +24,8 @@ After testing, Microsoft Defender Antivirus detected these alerts.
 ## Blue Note
 Since firewall tampering activities are detected and prevented by the antivirus, please ensure that these configurations are properly implemented.
 - Turn on [Microsoft Defender Antvirus](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/next-generation-protection?view=o365-worldwide) (Including Real-Time Protection, Cloud Protection, Sample Submission and so on)
-- Turn on [Tamper Protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection?view=o365-worldwide&ocid=magicti_ta_learndoc)
+- Onboarding [Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide)
+- Turn on Microsoft Defender for Endpoint, [Tamper Protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection?view=o365-worldwide&ocid=magicti_ta_learndoc)
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
