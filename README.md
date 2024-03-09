@@ -1,6 +1,10 @@
 # ResearchDev
 In this `ResearchDev` repository, I would like to share threat detection insights throughout Microsoft Defender XDR.
 
+- [x] Microsoft Defender XDR effectively captures all suspicious activities across email, endpoint, identity and application.
+- [x] Microsoft Defender XDR correlates alerts from different defenders into a single incident.
+      This holistic view enhances the capabilities of SOC personnel for comprehensive monitoring and management of security incidents.
+
 | Product | TEST/METHOD & Threat Detection |
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   MDO   | [MDO Safe Attachments : Detonation & Deep Analysis Validation](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV01-MDO-FileDetonation/README.md) |
