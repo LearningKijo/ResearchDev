@@ -1,9 +1,8 @@
 # ResearchDev
-In this `ResearchDev` repository, I would like to share threat detection insights throughout Microsoft Defender XDR.
+In this `ResearchDev` repository, I would like to share threat detection insights throughout ***Microsoft Defender XDR***.
 
-- [x] Microsoft Defender XDR effectively captures all suspicious activities across email, endpoint, identity and application.
-- [x] Microsoft Defender XDR correlates alerts from different defenders into a single incident.
-      This holistic view enhances the capabilities of SOC personnel for comprehensive monitoring and management of security incidents.
+- [x] Effectively captures all suspicious activities across email, endpoint, identity and application.
+- [x] Correlates alerts from different defenders into a single incident - this holistic view enhances the capabilities of SOC personnel for comprehensive monitoring and management of security incidents.
 
 | Product | TEST/METHOD & Threat Detection |
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
