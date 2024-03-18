@@ -62,7 +62,16 @@ After simulating the aforementioned process flows, the resulting alerts were gen
 ![image](https://github.com/LearningKijo/ResearchDev/assets/120234772/a3431403-f1c4-4b58-b7fc-d7cf933a8051)
 
 ## Blue Note
-Work in Progress
+Deploy Microsoft Entra ID and enable the following features:
+- Multi-Factor Authentication (MFA)
+- Conditional Access (Considering Sign-in/User Risk level, Compliance policy)
+- Microsoft Entra ID Protection
+- Smart lockout
+- Password Protection
+
+Deploy Microsoft Defender for Cloud Apps
+
+Deploy Microsoft Defender XDR 
 
 ## Reference
 - [Behind the scenes of business email compromise: Using cross-domain threat data to disrupt a large BEC campaign](https://www.microsoft.com/en-us/security/blog/2021/06/14/behind-the-scenes-of-business-email-compromise-using-cross-domain-threat-data-to-disrupt-a-large-bec-infrastructure/)
