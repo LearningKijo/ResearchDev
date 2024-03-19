@@ -11,7 +11,6 @@ In this `ResearchDev` repository, I would like to share threat detection insight
 |   MDE   | [Windows Defender Firewall rule, EDR/AV Communication Tampering](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV03-FirewallTampering/Dev03-FirewallTampering.md) |
 |   MDE   | [LSASS credential dumping, MiniDump](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV04-LSASSdumping-MiniDump/Dev04-LSASSdumping-MiniDump.md) |
 |   Entra / MDA | [Cloud identity abuse leading to Office 365 Exfiltration attack](https://github.com/LearningKijo/ResearchDev/blob/main/DEV/DEV05-CloudID-Exfiltration/DEV05-CloudID-Exfiltration.md) |
-|   MDE   | WMI Execution, LotL |
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
