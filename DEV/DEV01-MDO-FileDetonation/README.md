@@ -1,4 +1,4 @@
-# MDO Safe Attachments : Detonation & Deep Analysis Validation
+# MDO Safe Attachments : File Detonation Validation
 This is a test file designed for ***"File Detonation"*** and ***"Deep Analysis"*** of safe attachments in Microsoft Defender for Office 365.
 
 > [!Important]
